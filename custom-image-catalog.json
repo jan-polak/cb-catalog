@@ -1,0 +1,47 @@
+{
+  "images": {
+    "base-images": [
+      {
+        "date": "2019-05-22",
+        "description": "Yara Cloudbreak image - AmazonLinux2",
+        "images": {
+          "aws": {
+            "eu-west-1": "ami-0a64f6e9a06233002"
+          }
+        },
+        "os": "amazonlinux2",
+        "os_type": "amazonlinux2",
+        "uuid": "50397593-14d3-474b-46b5-020f5aeaaeb4"
+      },
+      {
+        "date": "2019-05-30",
+        "description": "Yara Cloudbreak image - CentOS 7",
+        "images": {
+          "aws": {
+            "eu-central-1": "ami-0821055c9ac3c851d"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "09d1bab8-2a40-4b4a-531a-447030b54e0f"
+      }
+    ]
+  },
+  "versions": {
+    "cloudbreak": [
+      {
+        "images": [
+          "50397593-14d3-474b-46b5-020f5aeaaeb4",
+          "09d1bab8-2a40-4b4a-531a-447030b54e0f"
+        ],
+        "defaults": [
+          "50397593-14d3-474b-46b5-020f5aeaaeb4",
+          "09d1bab8-2a40-4b4a-531a-447030b54e0f"
+        ],
+        "versions": [
+          "2.9.0"
+        ]
+      }
+    ]
+  }
+}
