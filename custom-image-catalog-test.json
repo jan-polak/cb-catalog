@@ -15,10 +15,10 @@
       },
       {
         "date": "2019-05-30",
-        "description": "Yara Cloudbreak image - CentOS 7",
+        "description": "testing-dfdp-all-all-hadoop-2019-08-16T05-14-56Z",
         "images": {
           "aws": {
-            "eu-central-1": "ami-015a1fe0928dd3eb3"
+            "eu-central-1": "ami-057f0083ffb6a7d17"
           }
         },
         "os": "centos7",
