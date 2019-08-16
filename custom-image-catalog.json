@@ -15,7 +15,7 @@
       },
       {
         "date": "2019-05-30",
-        "description": "Yara Cloudbreak image - CentOS 7",
+        "description": "[STABLE]Yara Cloudbreak image - Centos 7",
         "images": {
           "aws": {
             "eu-central-1": "ami-015a1fe0928dd3eb3"
@@ -24,7 +24,19 @@
         "os": "centos7",
         "os_type": "redhat7",
         "uuid": "09d1bab8-2a40-4b4a-531a-447030b54e0f"
-      }
+      },
+      {
+        "date": "2019-08-16",
+        "description": "[TEST]Yara Cloudbreak image - CentOS 7",
+        "images": {
+          "aws": {
+            "eu-central-1": "ami-057f0083ffb6a7d17"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "f018d7f3-b58b-4aba-b2d5-e91ce9d64da5"
+      }      
     ]
   },
   "versions": {
