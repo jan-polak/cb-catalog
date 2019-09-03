@@ -42,7 +42,7 @@
         "description": "[TEST][ENC]Yara Cloudbreak image - CentOS 7",
         "images": {
           "aws": {
-            "eu-central-1": "ami-024967f0b2bb457fe"
+            "eu-central-1": "ami-04405e16e58e432e8"
           }
         },
         "os": "centos7",
