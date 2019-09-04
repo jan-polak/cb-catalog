@@ -48,7 +48,20 @@
         "os": "centos7",
         "os_type": "redhat7",
         "uuid": "34a9131b-3486-43a2-bba8-bd07b537504c"
+      },
+      {
+        "date": "2019-09-03",
+        "description": "[TEST][MI]Yara Cloudbreak image - CentOS 7",
+        "images": {
+          "aws": {
+            "eu-central-1": "ami-0d622e23f79fb1c93"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "1041aad2-da99-412c-b5fa-f438122d8c80"
       }
+      
     ]
   },
   "versions": {
@@ -58,13 +71,15 @@
           "50397593-14d3-474b-46b5-020f5aeaaeb4",
           "09d1bab8-2a40-4b4a-531a-447030b54e0f",
           "f018d7f3-b58b-4aba-b2d5-e91ce9d64da5",
-          "34a9131b-3486-43a2-bba8-bd07b537504c"
+          "34a9131b-3486-43a2-bba8-bd07b537504c",
+          "1041aad2-da99-412c-b5fa-f438122d8c80"
         ],
         "defaults": [
           "50397593-14d3-474b-46b5-020f5aeaaeb4",
           "09d1bab8-2a40-4b4a-531a-447030b54e0f",
           "f018d7f3-b58b-4aba-b2d5-e91ce9d64da5",
-          "34a9131b-3486-43a2-bba8-bd07b537504c"
+          "34a9131b-3486-43a2-bba8-bd07b537504c",
+          "1041aad2-da99-412c-b5fa-f438122d8c80"
         ],
         "versions": [
           "2.9.0"
