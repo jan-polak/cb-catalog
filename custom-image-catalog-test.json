@@ -36,6 +36,14 @@
         "versions": [
           "2.9.0"
         ]
+      },
+      {
+        "images": [
+          "f018d7f3-b58b-4aba-b2d5-e91ce9d64da5"
+        ],
+        "versions": [
+          "2.9.1"
+        ]
       }
     ]
   }
