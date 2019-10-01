@@ -2,20 +2,8 @@
   "images": {
     "base-images": [
       {
-        "date": "2019-05-22",
-        "description": "Yara Cloudbreak image - AmazonLinux2",
-        "images": {
-          "aws": {
-            "eu-west-1": "ami-0a64f6e9a06233002"
-          }
-        },
-        "os": "amazonlinux2",
-        "os_type": "amazonlinux2",
-        "uuid": "50397593-14d3-474b-46b5-020f5aeaaeb4"
-      },
-      {
         "date": "2019-05-30",
-        "description": "testing-dfdp-all-all-hadoop-2019-08-16T05-14-56Z",
+        "description": "[STABLE]dfdp-all-all-hadoop-2019-05-30T08-47-31Z",
         "images": {
           "aws": {
             "eu-central-1": "ami-057f0083ffb6a7d17"
@@ -24,6 +12,18 @@
         "os": "centos7",
         "os_type": "redhat7",
         "uuid": "09d1bab8-2a40-4b4a-531a-447030b54e0f"
+      },
+      {
+        "date": "2019-08-16",
+        "description": "[TEST]dfdp-all-all-hadoop-2019-08-16T05-14-56Z",
+        "images": {
+          "aws": {
+            "eu-central-1": "ami-00580be27d0974e5a"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "f018d7f3-b58b-4aba-b2d5-e91ce9d64da5"
       }
     ]
   },
@@ -31,15 +31,18 @@
     "cloudbreak": [
       {
         "images": [
-          "50397593-14d3-474b-46b5-020f5aeaaeb4",
-          "09d1bab8-2a40-4b4a-531a-447030b54e0f"
-        ],
-        "defaults": [
-          "50397593-14d3-474b-46b5-020f5aeaaeb4",
           "09d1bab8-2a40-4b4a-531a-447030b54e0f"
         ],
         "versions": [
           "2.9.0"
+        ]
+      },
+      {
+        "images": [
+          "f018d7f3-b58b-4aba-b2d5-e91ce9d64da5"
+        ],
+        "versions": [
+          "2.9.1"
         ]
       }
     ]
