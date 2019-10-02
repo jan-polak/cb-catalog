@@ -18,7 +18,7 @@
         "description": "[STABLE]Yara Cloudbreak image - Centos 7",
         "images": {
           "aws": {
-            "eu-central-1": "ami-08b2be8b04dec3e28"
+            "eu-central-1": "ami-0bcab5802c6e12ec5"
           }
         },
         "os": "centos7",
