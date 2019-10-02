@@ -14,7 +14,7 @@
         "uuid": "50397593-14d3-474b-46b5-020f5aeaaeb4"
       },
       {
-        "date": "2019-05-30",
+        "date": "2019-09-26",
         "description": "[STABLE]Yara Cloudbreak image - Centos 7",
         "images": {
           "aws": {
