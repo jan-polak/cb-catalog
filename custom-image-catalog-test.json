@@ -2,28 +2,28 @@
   "images": {
     "base-images": [
       {
-        "date": "2019-05-30",
-        "description": "[STABLE]dfdp-all-all-hadoop-2019-05-30T08-47-31Z",
+        "date": "2019-09-05",
+        "description": "masterdfdp-all-all-hadoop-2019-09-05T08-42-21Z",
         "images": {
           "aws": {
-            "eu-central-1": "ami-057f0083ffb6a7d17"
+            "eu-central-1": "ami-0756b4504f16f8bb4"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "1041aad2-da99-412c-b5fa-f438122d8c80"
+      },
+      {
+        "date": "2019-09-26",
+        "description": "dfdp-all-all-hadoop-2019-09-26T08-49-30Z",
+        "images": {
+          "aws": {
+            "eu-central-1": "ami-0bcab5802c6e12ec5"
           }
         },
         "os": "centos7",
         "os_type": "redhat7",
         "uuid": "09d1bab8-2a40-4b4a-531a-447030b54e0f"
-      },
-      {
-        "date": "2019-08-16",
-        "description": "[TEST]dfdp-all-all-hadoop-2019-08-16T05-14-56Z",
-        "images": {
-          "aws": {
-            "eu-central-1": "ami-00580be27d0974e5a"
-          }
-        },
-        "os": "centos7",
-        "os_type": "redhat7",
-        "uuid": "f018d7f3-b58b-4aba-b2d5-e91ce9d64da5"
       }
     ]
   },
@@ -31,15 +31,8 @@
     "cloudbreak": [
       {
         "images": [
+          "1041aad2-da99-412c-b5fa-f438122d8c80",
           "09d1bab8-2a40-4b4a-531a-447030b54e0f"
-        ],
-        "versions": [
-          "2.9.0"
-        ]
-      },
-      {
-        "images": [
-          "f018d7f3-b58b-4aba-b2d5-e91ce9d64da5"
         ],
         "versions": [
           "2.9.1"
